@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/jackc/pgx/v4"
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
+	"github.com/brucewangviki/gorm"
+	"github.com/brucewangviki/gorm/clause"
+	"github.com/brucewangviki/gorm/migrator"
+	"github.com/brucewangviki/gorm/schema"
 )
 
 const indexSql = `
